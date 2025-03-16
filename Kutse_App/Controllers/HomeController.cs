@@ -114,9 +114,9 @@ namespace Kutse_App.Controllers
                 WebMail.SmtpServer = "smtp.gmail.com";
                 WebMail.SmtpPort = 587;
                 WebMail.EnableSsl = true;
-                WebMail.UserName = "jelizaveta.ostapjuk.work@gmail.com";
-                WebMail.Password = "lsrs danp cdwm ogmd ";
-                WebMail.From = "jelizaveta.ostapjuk.work@gmail.com";
+                WebMail.UserName = "glebsotjov@gmail.com";
+                WebMail.Password = "fzyc svao svfj jqnp  ";
+                WebMail.From = "glebsotjov@gmail.com";
                 WebMail.Send(guest.Email, " Vastus kutsele ", guest.Name + " vastas " + ((guest.WillAttend ?? false ? " tuleb peole" : " ei tule saatnud")));
                 ViewBag.Message = "Kiri on saatnud!";
             }
@@ -136,12 +136,12 @@ namespace Kutse_App.Controllers
                     WebMail.SmtpServer = "smtp.gmail.com";
                     WebMail.SmtpPort = 587;
                     WebMail.EnableSsl = true;
-                    WebMail.UserName = "jelizaveta.ostapjuk.work@gmail.com";
-                    WebMail.Password = "lsrs danp cdwm ogmd ";
-                    WebMail.From = "jelizaveta.ostapjuk.work@gmail.com";
+                    WebMail.UserName = "glebsotjov@gmail.com";
+                    WebMail.Password = "fzyc svao svfj jqnp  ";
+                    WebMail.From = "glebsotjov@gmail.com";
 
                     WebMail.Send(guest.Email, "Meeldetuletus", guest.Name + ", ara unusta. Pidu toimub 20.01.25! Sind ootavad väga!",
-                    null, "jelizaveta.ostapjuk.work@gmail.com",
+                    null, "glebsotjov@gmail.com",
                     filesToAttach: new String[] { Path.Combine(Server.MapPath("~/Images/"), Path.GetFileName("yippy.jpg ")) }
                    );
 
@@ -173,9 +173,9 @@ namespace Kutse_App.Controllers
                 WebMail.SmtpServer = "smtp.gmail.com";
                 WebMail.SmtpPort = 587;
                 WebMail.EnableSsl = true;
-                WebMail.UserName = "jelizaveta.ostapjuk.work@gmail.com";
-                WebMail.Password = "lsrs danp cdwm ogmd ";
-                WebMail.From = "jelizaveta.ostapjuk.work@gmail.com";
+                WebMail.UserName = "glebsotjov@gmail.com";
+                WebMail.Password = "fzyc svao svfj jqnp ";
+                WebMail.From = "glebsotjov@gmail.com";
 
                 WebMail.Send(
                     guest.Email,
